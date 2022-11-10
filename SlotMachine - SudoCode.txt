@@ -1,0 +1,50 @@
+Slot Machine Psudocode
+
+1. User clicks on button to SPIN the slot machine
+	a. Define an array with fruits
+	b. Create a random number generator to tie it to the array (Repeat the function 3 times)
+
+
+
+2. If the player does not match 3 of the same fruit reset game
+	a. Reset button
+	b. Add a way to keep track of money/ points
+	
+
+3. If they match 3 of the same fruit print (You win!)
+	a. Check if the fruits match (win condition)
+	d. Print (You win!)
+
+
+
+MARTINS HELP.
+
+1. Load the spin button into javascript (this is called caching). Ex: let spinBtnEl = document.getElementById('spin-btn')
+2. Load the reset button into javascript (this is called caching). Ex: let resetBtnEl = document.getElementById('reset-btn')
+3. Load the score div into javascript (this is called caching). Ex: let scoreDivEl = document.getElementById('score-div')
+4. Load the slots divs into javascript (this is called caching). Ex: let slotEls = document.querySelectorAll('.slot')
+5. Assign an array of things (maybe emojis?) to a variable. Ex: const options = ['a', 'b', 'c', 'd', 'e']
+6. Add an event listener to spinBtnEl (on click). This event listener needs to be tied to a callback function, maybe handleSpin?
+7. Define handleSpin with a function declaration: 
+Ex: 
+function handleSpin(evt) {
+ ...write your code here
+}
+ a. Choose three random entries from options array and assign them to three variables.
+ b. Check to see if the three entries match. If they do, your score goes up by 50 points. If they don't match, you lose 3 points.
+ c. If your score is 0, game over.
+8. Define render with a function declaration:
+Ex:
+function render() {
+  ...write your code here
+}
+ a. All slots need to be filled with the three random entries. 
+ b. The new updated score should be shown on screen!
+ c. If they lose, show game over.
+9. Define reset with a function declaration:
+Ex: 
+function reset() {
+  ...write your code here
+}
+ a. Reset points to 50.
+ b. Reset slot elements to display three 3 question marks.
