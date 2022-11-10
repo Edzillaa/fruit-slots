@@ -1,17 +1,17 @@
 /*----- constants -----*/
 const options = [
-    '../images/fruitarr/fruit1.png', 
-    '../images/fruitarr/fruit2.png',
-    '../images/fruitarr/fruit3.png',
-    '../images/fruitarr/fruit4.png',
-    '../images/fruitarr/fruit5.png',
-    '../images/fruitarr/fruit6.png',
-    '../images/fruitarr/fruit7.png',
-    '../images/fruitarr/fruit8.png',
-    '../images/fruitarr/fruit9.png',
-    '../images/fruitarr/fruit10.png',
-    '../images/fruitarr/fruit11.png',
-    '../images/fruitarr/fruit12.png',
+    './images/fruitarr/fruit1.png', 
+    './images/fruitarr/fruit2.png',
+    './images/fruitarr/fruit3.png',
+    './images/fruitarr/fruit4.png',
+    './images/fruitarr/fruit5.png',
+    './images/fruitarr/fruit6.png',
+    './images/fruitarr/fruit7.png',
+    './images/fruitarr/fruit8.png',
+    './images/fruitarr/fruit9.png',
+    './images/fruitarr/fruit10.png',
+    './images/fruitarr/fruit11.png',
+    './images/fruitarr/fruit12.png',
 ];
 
 let slot1 = null;
